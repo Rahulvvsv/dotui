@@ -1,0 +1,860 @@
+{
+  "version": 1,
+  "panels": {
+    "feed/panel#0/panel~0": {
+      "id": "feed/panel#0/panel~0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer flex-col gap-2",
+      "dynamicClassName": false,
+      "description": "Video card (template — one per video).",
+      "repeated": true,
+      "children": [
+        "feed/panel#0/panel~0/image#0",
+        "feed/panel#0/panel~0/text#0",
+        "feed/panel#0/panel~0/text#1",
+        "feed/panel#0/panel~0/badge#0"
+      ]
+    },
+    "feed/panel#0": {
+      "id": "feed/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "grid flex-1 grid-cols-1 gap-5 p-5 sm:grid-cols-2 lg:grid-cols-3",
+      "dynamicClassName": false,
+      "description": "The main video feed grid.",
+      "children": [
+        "feed/panel#0/panel~0"
+      ]
+    },
+    "frame/panel#0/panel#0": {
+      "id": "frame/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-1",
+      "dynamicClassName": false,
+      "description": "Body row — the sidebar beside the main content area.",
+      "children": []
+    },
+    "frame/panel#0": {
+      "id": "frame/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-h-screen w-full flex-col bg-white text-slate-900",
+      "dynamicClassName": false,
+      "description": "Application root — fills the viewport and stacks the top bar over the body.",
+      "children": [
+        "frame/panel#0/panel#0"
+      ]
+    },
+    "sidebar/panel#0": {
+      "id": "sidebar/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex w-52 flex-col gap-1 border-r border-slate-200 bg-white p-3 text-sm",
+      "dynamicClassName": false,
+      "description": "Left navigation rail with primary, library, and explore sections.",
+      "children": [
+        "sidebar/panel#0/button#0",
+        "sidebar/panel#0/button#1",
+        "sidebar/panel#0/button#2",
+        "sidebar/panel#0/text#0",
+        "sidebar/panel#0/button#3",
+        "sidebar/panel#0/button#4",
+        "sidebar/panel#0/button#5",
+        "sidebar/panel#0/button#6",
+        "sidebar/panel#0/text#1",
+        "sidebar/panel#0/button#7",
+        "sidebar/panel#0/button#8",
+        "sidebar/panel#0/button#9"
+      ]
+    },
+    "topbar/panel#0/panel#0": {
+      "id": "topbar/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "ml-2 flex flex-1 items-center gap-2",
+      "dynamicClassName": false,
+      "children": [
+        "topbar/panel#0/panel#0/input#0",
+        "topbar/panel#0/panel#0/button#0"
+      ]
+    },
+    "topbar/panel#0": {
+      "id": "topbar/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-4 border-b border-slate-200 bg-white px-4 py-2",
+      "dynamicClassName": false,
+      "description": "Top navigation bar: brand, search, and action icons.",
+      "children": [
+        "topbar/panel#0/text#0",
+        "topbar/panel#0/panel#0",
+        "topbar/panel#0/button#0",
+        "topbar/panel#0/button#1",
+        "topbar/panel#0/image#0"
+      ]
+    },
+    "watch/panel#0/panel#0/panel#0/panel#0/panel#0/panel#0": {
+      "id": "watch/panel#0/panel#0/panel#0/panel#0/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "absolute left-0 top-0 h-1 rounded-full bg-red-500",
+      "dynamicClassName": false,
+      "children": []
+    },
+    "watch/panel#0/panel#0/panel#0/panel#0/panel#0": {
+      "id": "watch/panel#0/panel#0/panel#0/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "relative h-1 flex-1 rounded-full bg-white/30",
+      "dynamicClassName": false,
+      "children": [
+        "watch/panel#0/panel#0/panel#0/panel#0/panel#0/panel#0"
+      ]
+    },
+    "watch/panel#0/panel#0/panel#0/panel#0": {
+      "id": "watch/panel#0/panel#0/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "absolute inset-x-0 bottom-0 flex items-center gap-3 bg-gradient-to-t from-black/80 to-transparent px-4 py-3 text-xs text-white",
+      "dynamicClassName": false,
+      "description": "Scrubber.",
+      "children": [
+        "watch/panel#0/panel#0/panel#0/panel#0/text#0",
+        "watch/panel#0/panel#0/panel#0/panel#0/panel#0",
+        "watch/panel#0/panel#0/panel#0/panel#0/text#1"
+      ]
+    },
+    "watch/panel#0/panel#0/panel#0": {
+      "id": "watch/panel#0/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "relative aspect-video w-full overflow-hidden rounded-xl bg-black",
+      "dynamicClassName": false,
+      "description": "Video player.",
+      "children": [
+        "watch/panel#0/panel#0/panel#0/image#0",
+        "watch/panel#0/panel#0/panel#0/badge#0",
+        "watch/panel#0/panel#0/panel#0/button#0",
+        "watch/panel#0/panel#0/panel#0/panel#0"
+      ]
+    },
+    "watch/panel#0/panel#0/panel#1": {
+      "id": "watch/panel#0/panel#0/panel#1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-3",
+      "dynamicClassName": false,
+      "description": "Channel row and actions.",
+      "children": [
+        "watch/panel#0/panel#0/panel#1/text#0",
+        "watch/panel#0/panel#0/panel#1/text#1",
+        "watch/panel#0/panel#0/panel#1/button#0",
+        "watch/panel#0/panel#0/panel#1/button#1"
+      ]
+    },
+    "watch/panel#0/panel#0/panel#2": {
+      "id": "watch/panel#0/panel#0/panel#2",
+      "kind": "panel",
+      "element": "div",
+      "className": "rounded-lg bg-slate-50 p-3 text-sm text-slate-700",
+      "dynamicClassName": false,
+      "description": "Description.",
+      "children": []
+    },
+    "watch/panel#0/panel#0": {
+      "id": "watch/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-1 flex-col gap-3",
+      "dynamicClassName": false,
+      "description": "Player column.",
+      "children": [
+        "watch/panel#0/panel#0/button#0",
+        "watch/panel#0/panel#0/panel#0",
+        "watch/panel#0/panel#0/text#0",
+        "watch/panel#0/panel#0/panel#1",
+        "watch/panel#0/panel#0/panel#2"
+      ]
+    },
+    "watch/panel#0/panel#1/panel~0": {
+      "id": "watch/panel#0/panel#1/panel~0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer items-center gap-3 rounded-lg p-1 text-left hover:bg-slate-100",
+      "dynamicClassName": false,
+      "description": "Up-next video row (template — one per suggestion).",
+      "repeated": true,
+      "children": [
+        "watch/panel#0/panel#1/panel~0/image#0",
+        "watch/panel#0/panel#1/panel~0/text#0"
+      ]
+    },
+    "watch/panel#0/panel#1": {
+      "id": "watch/panel#0/panel#1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex w-72 flex-col gap-3",
+      "dynamicClassName": false,
+      "description": "Up-next list.",
+      "children": [
+        "watch/panel#0/panel#1/text#0",
+        "watch/panel#0/panel#1/panel~0"
+      ]
+    },
+    "watch/panel#0": {
+      "id": "watch/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-1 gap-6 p-5",
+      "dynamicClassName": false,
+      "description": "The watch page — player, details, and up-next.",
+      "children": [
+        "watch/panel#0/panel#0",
+        "watch/panel#0/panel#1"
+      ]
+    }
+  },
+  "dots": {
+    "feed/panel#0/panel~0/image#0": {
+      "id": "feed/panel#0/panel~0/image#0",
+      "kind": "image",
+      "element": "img",
+      "className": "aspect-video w-full rounded-xl object-cover",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Video thumbnail.",
+      "repeated": true,
+      "content": []
+    },
+    "feed/panel#0/panel~0/text#0": {
+      "id": "feed/panel#0/panel~0/text#0",
+      "kind": "text",
+      "element": "h3",
+      "className": "text-sm font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Video title.",
+      "repeated": true,
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "video.title"
+        }
+      ]
+    },
+    "feed/panel#0/panel~0/text#1": {
+      "id": "feed/panel#0/panel~0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "text-xs text-slate-600",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Channel name.",
+      "repeated": true,
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "video.channel"
+        }
+      ]
+    },
+    "feed/panel#0/panel~0/badge#0": {
+      "id": "feed/panel#0/panel~0/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "View count and age.",
+      "repeated": true,
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "`${video.views} · ${video.age}`"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#0": {
+      "id": "sidebar/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Go to the home feed.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🏠 Home"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#1": {
+      "id": "sidebar/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Short-form video feed.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⚡ Shorts"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#2": {
+      "id": "sidebar/panel#0/button#2",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Channels you follow.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📺 Subscriptions"
+        }
+      ]
+    },
+    "sidebar/panel#0/text#0": {
+      "id": "sidebar/panel#0/text#0",
+      "kind": "text",
+      "element": "label",
+      "className": "mt-3 px-3 text-xs font-semibold uppercase text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Section label for the personal library.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "You"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#3": {
+      "id": "sidebar/panel#0/button#3",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Your video library.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📚 Library"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#4": {
+      "id": "sidebar/panel#0/button#4",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Watch history.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🕘 History"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#5": {
+      "id": "sidebar/panel#0/button#5",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Saved for later.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⏰ Watch later"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#6": {
+      "id": "sidebar/panel#0/button#6",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Videos you liked.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "👍 Liked videos"
+        }
+      ]
+    },
+    "sidebar/panel#0/text#1": {
+      "id": "sidebar/panel#0/text#1",
+      "kind": "text",
+      "element": "label",
+      "className": "mt-3 px-3 text-xs font-semibold uppercase text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Section label for discovery links.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Explore"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#7": {
+      "id": "sidebar/panel#0/button#7",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Trending videos.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🔥 Trending"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#8": {
+      "id": "sidebar/panel#0/button#8",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Gaming hub.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🎮 Gaming"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#9": {
+      "id": "sidebar/panel#0/button#9",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-lg px-3 py-2 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Music hub.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🎵 Music"
+        }
+      ]
+    },
+    "topbar/panel#0/text#0": {
+      "id": "topbar/panel#0/text#0",
+      "kind": "text",
+      "element": "h1",
+      "className": "text-lg font-bold text-red-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Brand wordmark.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "▶ dotTube"
+        }
+      ]
+    },
+    "topbar/panel#0/panel#0/input#0": {
+      "id": "topbar/panel#0/panel#0/input#0",
+      "kind": "input",
+      "element": "input",
+      "className": "w-full max-w-md rounded-full border border-slate-300 px-4 py-1.5 text-sm",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Search box (must stay editable).",
+      "content": []
+    },
+    "topbar/panel#0/panel#0/button#0": {
+      "id": "topbar/panel#0/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full bg-slate-100 px-3 py-1.5 text-sm",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Run the search.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🔍"
+        }
+      ]
+    },
+    "topbar/panel#0/button#0": {
+      "id": "topbar/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full bg-slate-100 px-3 py-1.5 text-sm",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Upload / create a video.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📹 Create"
+        }
+      ]
+    },
+    "topbar/panel#0/button#1": {
+      "id": "topbar/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full bg-slate-100 px-3 py-1.5 text-sm",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Open notifications.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🔔"
+        }
+      ]
+    },
+    "topbar/panel#0/image#0": {
+      "id": "topbar/panel#0/image#0",
+      "kind": "image",
+      "element": "img",
+      "className": "h-8 w-8 rounded-full object-cover",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "The signed-in user's avatar.",
+      "content": []
+    },
+    "watch/panel#0/panel#0/button#0": {
+      "id": "watch/panel#0/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "w-fit rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700 hover:bg-slate-200",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Back to the feed.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "← Back"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#0/image#0": {
+      "id": "watch/panel#0/panel#0/panel#0/image#0",
+      "kind": "image",
+      "element": "img",
+      "className": "absolute inset-0 h-full w-full object-cover opacity-60",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Now-playing frame.",
+      "content": []
+    },
+    "watch/panel#0/panel#0/panel#0/badge#0": {
+      "id": "watch/panel#0/panel#0/panel#0/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "absolute left-3 top-3 rounded-full bg-black/60 px-3 py-1 text-xs text-white",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Playback status.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "playing ? '🔴 Playing' : '⏸ Paused'"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#0/button#0": {
+      "id": "watch/panel#0/panel#0/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "absolute inset-0 m-auto flex h-16 w-16 items-center justify-center rounded-full bg-black/50 text-2xl text-white hover:bg-black/70",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Toggle play/pause.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "playing ? '⏸' : '▶'"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#0/panel#0/text#0": {
+      "id": "watch/panel#0/panel#0/panel#0/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "",
+      "dynamicClassName": false,
+      "required": false,
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "fmt(seconds)"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#0/panel#0/text#1": {
+      "id": "watch/panel#0/panel#0/panel#0/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "",
+      "dynamicClassName": false,
+      "required": false,
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "fmt(DURATION)"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/text#0": {
+      "id": "watch/panel#0/panel#0/text#0",
+      "kind": "text",
+      "element": "h1",
+      "className": "text-xl font-bold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Video title.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "video.title"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#1/text#0": {
+      "id": "watch/panel#0/panel#0/panel#1/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "text-sm font-medium text-slate-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Channel name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "video.channel"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#1/text#1": {
+      "id": "watch/panel#0/panel#0/panel#1/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "text-xs text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Views and age.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "`${video.views} · ${video.age}`"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#1/button#0": {
+      "id": "watch/panel#0/panel#0/panel#1/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "",
+      "dynamicClassName": true,
+      "required": false,
+      "description": "Like this video.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "liked ? '👍 Liked' : '👍 Like'"
+        }
+      ]
+    },
+    "watch/panel#0/panel#0/panel#1/button#1": {
+      "id": "watch/panel#0/panel#0/panel#1/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700 hover:bg-slate-200",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Share this video.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "↗ Share"
+        }
+      ]
+    },
+    "watch/panel#0/panel#1/text#0": {
+      "id": "watch/panel#0/panel#1/text#0",
+      "kind": "text",
+      "element": "label",
+      "className": "text-sm font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Up-next heading.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Up next"
+        }
+      ]
+    },
+    "watch/panel#0/panel#1/panel~0/image#0": {
+      "id": "watch/panel#0/panel#1/panel~0/image#0",
+      "kind": "image",
+      "element": "img",
+      "className": "h-12 w-20 shrink-0 rounded object-cover",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Up-next thumbnail.",
+      "repeated": true,
+      "content": []
+    },
+    "watch/panel#0/panel#1/panel~0/text#0": {
+      "id": "watch/panel#0/panel#1/panel~0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "text-xs font-medium text-slate-800",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Up-next title.",
+      "repeated": true,
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "v.title"
+        }
+      ]
+    }
+  },
+  "palette": {
+    "seededFromAuthor": [
+      "absolute",
+      "aspect-video",
+      "bg-black",
+      "bg-black/50",
+      "bg-black/60",
+      "bg-gradient-to-t",
+      "bg-red-500",
+      "bg-slate-100",
+      "bg-slate-50",
+      "bg-white",
+      "bg-white/30",
+      "border",
+      "border-b",
+      "border-r",
+      "border-slate-200",
+      "border-slate-300",
+      "bottom-0",
+      "cursor-pointer",
+      "flex",
+      "flex-1",
+      "flex-col",
+      "font-bold",
+      "font-medium",
+      "font-semibold",
+      "from-black/80",
+      "gap-1",
+      "gap-2",
+      "gap-3",
+      "gap-4",
+      "gap-5",
+      "gap-6",
+      "grid",
+      "grid-cols-1",
+      "h-1",
+      "h-12",
+      "h-16",
+      "h-8",
+      "h-full",
+      "hover:bg-black/70",
+      "hover:bg-slate-100",
+      "hover:bg-slate-200",
+      "inset-0",
+      "inset-x-0",
+      "items-center",
+      "justify-center",
+      "left-0",
+      "left-3",
+      "lg:grid-cols-3",
+      "m-auto",
+      "max-w-md",
+      "min-h-screen",
+      "ml-2",
+      "mt-3",
+      "object-cover",
+      "opacity-60",
+      "overflow-hidden",
+      "p-1",
+      "p-3",
+      "p-5",
+      "px-3",
+      "px-4",
+      "py-1",
+      "py-1.5",
+      "py-2",
+      "py-3",
+      "relative",
+      "rounded",
+      "rounded-full",
+      "rounded-lg",
+      "rounded-xl",
+      "shrink-0",
+      "sm:grid-cols-2",
+      "text-2xl",
+      "text-left",
+      "text-lg",
+      "text-red-600",
+      "text-slate-400",
+      "text-slate-500",
+      "text-slate-600",
+      "text-slate-700",
+      "text-slate-800",
+      "text-slate-900",
+      "text-sm",
+      "text-white",
+      "text-xl",
+      "text-xs",
+      "to-transparent",
+      "top-0",
+      "top-3",
+      "uppercase",
+      "w-16",
+      "w-20",
+      "w-52",
+      "w-72",
+      "w-8",
+      "w-fit",
+      "w-full"
+    ],
+    "families": [
+      "text-size",
+      "font-weight",
+      "text-color",
+      "bg-color",
+      "padding",
+      "margin",
+      "gap",
+      "rounded",
+      "border",
+      "border-color",
+      "display",
+      "flex",
+      "grid",
+      "align",
+      "justify",
+      "width",
+      "height"
+    ]
+  }
+}

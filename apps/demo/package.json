@@ -1,0 +1,37 @@
+{
+  "name": "@dotui/demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "schema": "node ../../packages/compiler/dist/bin.cjs build \"app/**/*.panel.tsx\" --out .dotui/schema.json",
+    "ensure-schema": "node scripts/ensure-schema.mjs",
+    "predev": "node scripts/ensure-schema.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/ensure-schema.mjs",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.26.0",
+    "@dotui/devtools": "workspace:*",
+    "@dotui/elements": "workspace:*",
+    "@dotui/llm": "workspace:*",
+    "@dotui/prompt": "workspace:*",
+    "@dotui/store": "workspace:*",
+    "@libsql/client": "^0.14.0",
+    "libsql": "^0.4.7",
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@dotui/compiler": "workspace:*",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}

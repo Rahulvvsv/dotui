@@ -1,0 +1,2173 @@
+{
+  "version": 1,
+  "panels": {
+    "frame/panel#0/panel#0": {
+      "id": "frame/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-h-0 flex-1",
+      "dynamicClassName": false,
+      "description": "Body row — the sidebar beside the main content area.",
+      "children": []
+    },
+    "frame/panel#0": {
+      "id": "frame/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex h-screen w-full flex-col bg-slate-50 text-slate-900",
+      "dynamicClassName": false,
+      "description": "Application root — fills the viewport and stacks the top bar over the body.",
+      "children": [
+        "frame/panel#0/panel#0"
+      ]
+    },
+    "inbox/panel#0/panel#0": {
+      "id": "inbox/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-1 border-b border-slate-200 px-4 py-1.5 text-slate-500",
+      "dynamicClassName": false,
+      "description": "Inbox toolbar — select, refresh, and pagination.",
+      "children": [
+        "inbox/panel#0/panel#0/button#0",
+        "inbox/panel#0/panel#0/button#1",
+        "inbox/panel#0/panel#0/button#2",
+        "inbox/panel#0/panel#0/text#0",
+        "inbox/panel#0/panel#0/button#3",
+        "inbox/panel#0/panel#0/button#4"
+      ]
+    },
+    "inbox/panel#0/panel#1": {
+      "id": "inbox/panel#0/panel#1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-1 border-b border-slate-200 px-2",
+      "dynamicClassName": false,
+      "description": "Category tabs.",
+      "children": [
+        "inbox/panel#0/panel#1/button#0",
+        "inbox/panel#0/panel#1/button#1",
+        "inbox/panel#0/panel#1/button#2"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/panel#0": {
+      "id": "inbox/panel#0/panel#2/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 items-center gap-2",
+      "dynamicClassName": false,
+      "description": "Subject and preview.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#0/panel#0/text#0",
+        "inbox/panel#0/panel#2/panel#0/panel#0/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0": {
+      "id": "inbox/panel#0/panel#2/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer items-center gap-3 bg-white px-4 py-2.5 hover:bg-slate-50 hover:shadow-sm",
+      "dynamicClassName": false,
+      "description": "Message row.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#0/button#0",
+        "inbox/panel#0/panel#2/panel#0/button#1",
+        "inbox/panel#0/panel#2/panel#0/text#0",
+        "inbox/panel#0/panel#2/panel#0/panel#0",
+        "inbox/panel#0/panel#2/panel#0/badge#0",
+        "inbox/panel#0/panel#2/panel#0/badge#1",
+        "inbox/panel#0/panel#2/panel#0/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/panel#0": {
+      "id": "inbox/panel#0/panel#2/panel#1/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 items-center gap-2",
+      "dynamicClassName": false,
+      "description": "Subject and preview.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#1/panel#0/text#0",
+        "inbox/panel#0/panel#2/panel#1/panel#0/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1": {
+      "id": "inbox/panel#0/panel#2/panel#1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer items-center gap-3 bg-white px-4 py-2.5 hover:bg-slate-50 hover:shadow-sm",
+      "dynamicClassName": false,
+      "description": "Message row.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#1/button#0",
+        "inbox/panel#0/panel#2/panel#1/button#1",
+        "inbox/panel#0/panel#2/panel#1/text#0",
+        "inbox/panel#0/panel#2/panel#1/panel#0",
+        "inbox/panel#0/panel#2/panel#1/badge#0",
+        "inbox/panel#0/panel#2/panel#1/badge#1",
+        "inbox/panel#0/panel#2/panel#1/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/panel#0": {
+      "id": "inbox/panel#0/panel#2/panel#2/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 items-center gap-2",
+      "dynamicClassName": false,
+      "description": "Subject and preview.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#2/panel#0/text#0",
+        "inbox/panel#0/panel#2/panel#2/panel#0/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2": {
+      "id": "inbox/panel#0/panel#2/panel#2",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer items-center gap-3 bg-slate-50/40 px-4 py-2.5 hover:bg-slate-50 hover:shadow-sm",
+      "dynamicClassName": false,
+      "description": "Message row.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#2/button#0",
+        "inbox/panel#0/panel#2/panel#2/button#1",
+        "inbox/panel#0/panel#2/panel#2/text#0",
+        "inbox/panel#0/panel#2/panel#2/panel#0",
+        "inbox/panel#0/panel#2/panel#2/badge#0",
+        "inbox/panel#0/panel#2/panel#2/badge#1",
+        "inbox/panel#0/panel#2/panel#2/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/panel#0": {
+      "id": "inbox/panel#0/panel#2/panel#3/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 items-center gap-2",
+      "dynamicClassName": false,
+      "description": "Subject and preview.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#3/panel#0/text#0",
+        "inbox/panel#0/panel#2/panel#3/panel#0/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3": {
+      "id": "inbox/panel#0/panel#2/panel#3",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer items-center gap-3 bg-slate-50/40 px-4 py-2.5 hover:bg-slate-50 hover:shadow-sm",
+      "dynamicClassName": false,
+      "description": "Message row.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#3/button#0",
+        "inbox/panel#0/panel#2/panel#3/button#1",
+        "inbox/panel#0/panel#2/panel#3/text#0",
+        "inbox/panel#0/panel#2/panel#3/panel#0",
+        "inbox/panel#0/panel#2/panel#3/badge#0",
+        "inbox/panel#0/panel#2/panel#3/badge#1",
+        "inbox/panel#0/panel#2/panel#3/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/panel#0": {
+      "id": "inbox/panel#0/panel#2/panel#4/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 items-center gap-2",
+      "dynamicClassName": false,
+      "description": "Subject and preview.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#4/panel#0/text#0",
+        "inbox/panel#0/panel#2/panel#4/panel#0/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4": {
+      "id": "inbox/panel#0/panel#2/panel#4",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer items-center gap-3 bg-slate-50/40 px-4 py-2.5 hover:bg-slate-50 hover:shadow-sm",
+      "dynamicClassName": false,
+      "description": "Message row.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#4/button#0",
+        "inbox/panel#0/panel#2/panel#4/button#1",
+        "inbox/panel#0/panel#2/panel#4/text#0",
+        "inbox/panel#0/panel#2/panel#4/panel#0",
+        "inbox/panel#0/panel#2/panel#4/badge#0",
+        "inbox/panel#0/panel#2/panel#4/badge#1",
+        "inbox/panel#0/panel#2/panel#4/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/panel#0": {
+      "id": "inbox/panel#0/panel#2/panel#5/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 items-center gap-2",
+      "dynamicClassName": false,
+      "description": "Subject and preview.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#5/panel#0/text#0",
+        "inbox/panel#0/panel#2/panel#5/panel#0/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5": {
+      "id": "inbox/panel#0/panel#2/panel#5",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex cursor-pointer items-center gap-3 bg-slate-50/40 px-4 py-2.5 hover:bg-slate-50 hover:shadow-sm",
+      "dynamicClassName": false,
+      "description": "Message row.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#5/button#0",
+        "inbox/panel#0/panel#2/panel#5/button#1",
+        "inbox/panel#0/panel#2/panel#5/text#0",
+        "inbox/panel#0/panel#2/panel#5/panel#0",
+        "inbox/panel#0/panel#2/panel#5/badge#0",
+        "inbox/panel#0/panel#2/panel#5/badge#1",
+        "inbox/panel#0/panel#2/panel#5/text#1"
+      ]
+    },
+    "inbox/panel#0/panel#2": {
+      "id": "inbox/panel#0/panel#2",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col divide-y divide-slate-100",
+      "dynamicClassName": false,
+      "description": "The message list.",
+      "children": [
+        "inbox/panel#0/panel#2/panel#0",
+        "inbox/panel#0/panel#2/panel#1",
+        "inbox/panel#0/panel#2/panel#2",
+        "inbox/panel#0/panel#2/panel#3",
+        "inbox/panel#0/panel#2/panel#4",
+        "inbox/panel#0/panel#2/panel#5"
+      ]
+    },
+    "inbox/panel#0": {
+      "id": "inbox/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 flex-col overflow-y-auto bg-white",
+      "dynamicClassName": false,
+      "description": "The inbox: toolbar, category tabs, and the message list.",
+      "children": [
+        "inbox/panel#0/panel#0",
+        "inbox/panel#0/panel#1",
+        "inbox/panel#0/panel#2"
+      ]
+    },
+    "read/panel#0/panel#0": {
+      "id": "read/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-1 border-b border-slate-200 px-4 py-1.5 text-slate-500",
+      "dynamicClassName": false,
+      "description": "Message toolbar.",
+      "children": [
+        "read/panel#0/panel#0/button#0",
+        "read/panel#0/panel#0/button#1",
+        "read/panel#0/panel#0/button#2",
+        "read/panel#0/panel#0/button#3",
+        "read/panel#0/panel#0/button#4",
+        "read/panel#0/panel#0/text#0"
+      ]
+    },
+    "read/panel#0/panel#1/panel#0": {
+      "id": "read/panel#0/panel#1/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-3",
+      "dynamicClassName": false,
+      "description": "Subject row.",
+      "children": [
+        "read/panel#0/panel#1/panel#0/text#0",
+        "read/panel#0/panel#1/panel#0/badge~0"
+      ]
+    },
+    "read/panel#0/panel#1/panel#1/panel#0": {
+      "id": "read/panel#0/panel#1/panel#1/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-col",
+      "dynamicClassName": false,
+      "description": "Sender identity.",
+      "children": [
+        "read/panel#0/panel#1/panel#1/panel#0/text#0",
+        "read/panel#0/panel#1/panel#1/panel#0/text#1"
+      ]
+    },
+    "read/panel#0/panel#1/panel#1": {
+      "id": "read/panel#0/panel#1/panel#1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-3",
+      "dynamicClassName": false,
+      "description": "Sender row.",
+      "children": [
+        "read/panel#0/panel#1/panel#1/image#0",
+        "read/panel#0/panel#1/panel#1/panel#0",
+        "read/panel#0/panel#1/panel#1/text#0",
+        "read/panel#0/panel#1/panel#1/button#0",
+        "read/panel#0/panel#1/panel#1/button#1"
+      ]
+    },
+    "read/panel#0/panel#1/panel#2": {
+      "id": "read/panel#0/panel#1/panel#2",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col gap-4 whitespace-pre-line text-sm leading-relaxed text-slate-700",
+      "dynamicClassName": false,
+      "description": "Message body.",
+      "children": [
+        "read/panel#0/panel#1/panel#2/text#0",
+        "read/panel#0/panel#1/panel#2/text#1",
+        "read/panel#0/panel#1/panel#2/text#2",
+        "read/panel#0/panel#1/panel#2/text#3"
+      ]
+    },
+    "read/panel#0/panel#1/panel~0": {
+      "id": "read/panel#0/panel#1/panel~0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex w-fit items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700",
+      "dynamicClassName": false,
+      "description": "Attachment chip.",
+      "children": []
+    },
+    "read/panel#0/panel#1/panel~1/panel#0": {
+      "id": "read/panel#0/panel#1/panel~1/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-2",
+      "dynamicClassName": false,
+      "description": "Composer actions.",
+      "children": [
+        "read/panel#0/panel#1/panel~1/panel#0/button#0",
+        "read/panel#0/panel#1/panel~1/panel#0/button#1"
+      ]
+    },
+    "read/panel#0/panel#1/panel~1": {
+      "id": "read/panel#0/panel#1/panel~1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col gap-2 rounded-xl border border-slate-300 p-3 shadow-sm",
+      "dynamicClassName": false,
+      "description": "Reply composer.",
+      "children": [
+        "read/panel#0/panel#1/panel~1/input#0",
+        "read/panel#0/panel#1/panel~1/panel#0"
+      ]
+    },
+    "read/panel#0/panel#1/panel~2": {
+      "id": "read/panel#0/panel#1/panel~2",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-2 pt-2",
+      "dynamicClassName": false,
+      "description": "Reply actions.",
+      "children": [
+        "read/panel#0/panel#1/panel~2/button#0",
+        "read/panel#0/panel#1/panel~2/button#1",
+        "read/panel#0/panel#1/panel~2/button#2"
+      ]
+    },
+    "read/panel#0/panel#1": {
+      "id": "read/panel#0/panel#1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col gap-4 px-8 py-6",
+      "dynamicClassName": false,
+      "description": "Message content.",
+      "children": [
+        "read/panel#0/panel#1/panel#0",
+        "read/panel#0/panel#1/panel#1",
+        "read/panel#0/panel#1/panel#2",
+        "read/panel#0/panel#1/panel~0",
+        "read/panel#0/panel#1/panel~1",
+        "read/panel#0/panel#1/panel~2"
+      ]
+    },
+    "read/panel#0": {
+      "id": "read/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex min-w-0 flex-1 flex-col overflow-y-auto bg-white",
+      "dynamicClassName": false,
+      "description": "The open message: header, body, and reply actions.",
+      "children": [
+        "read/panel#0/panel#0",
+        "read/panel#0/panel#1"
+      ]
+    },
+    "sidebar/panel#0": {
+      "id": "sidebar/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex w-60 shrink-0 flex-col gap-1 overflow-y-auto border-r border-slate-200 bg-white p-3 text-sm",
+      "dynamicClassName": false,
+      "description": "Left navigation rail: compose, mail folders, and labels.",
+      "children": [
+        "sidebar/panel#0/button#0",
+        "sidebar/panel#0/button#1",
+        "sidebar/panel#0/button#2",
+        "sidebar/panel#0/button#3",
+        "sidebar/panel#0/button#4",
+        "sidebar/panel#0/button#5",
+        "sidebar/panel#0/button#6",
+        "sidebar/panel#0/button#7",
+        "sidebar/panel#0/button#8",
+        "sidebar/panel#0/button#9",
+        "sidebar/panel#0/button#10",
+        "sidebar/panel#0/text#0",
+        "sidebar/panel#0/button#11",
+        "sidebar/panel#0/button#12",
+        "sidebar/panel#0/button#13",
+        "sidebar/panel#0/button#14"
+      ]
+    },
+    "topbar/panel#0/panel#0": {
+      "id": "topbar/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "ml-4 flex max-w-2xl flex-1 items-center gap-2 rounded-full bg-slate-100 px-4 py-2 focus-within:bg-white focus-within:shadow",
+      "dynamicClassName": false,
+      "description": "Search cluster.",
+      "children": [
+        "topbar/panel#0/panel#0/button#0",
+        "topbar/panel#0/panel#0/input#0",
+        "topbar/panel#0/panel#0/button#1"
+      ]
+    },
+    "topbar/panel#0": {
+      "id": "topbar/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-3 border-b border-slate-200 bg-white px-4 py-2",
+      "dynamicClassName": false,
+      "description": "Top navigation bar: menu, brand, search, and action icons.",
+      "children": [
+        "topbar/panel#0/button#0",
+        "topbar/panel#0/text#0",
+        "topbar/panel#0/panel#0",
+        "topbar/panel#0/button#1",
+        "topbar/panel#0/button#2",
+        "topbar/panel#0/button#3",
+        "topbar/panel#0/image#0"
+      ]
+    }
+  },
+  "dots": {
+    "inbox/panel#0/panel#0/button#0": {
+      "id": "inbox/panel#0/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Select all.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#0/button#1": {
+      "id": "inbox/panel#0/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Refresh.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "↻"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#0/button#2": {
+      "id": "inbox/panel#0/panel#0/button#2",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "More actions.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⋮"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "ml-auto text-xs",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Visible message range.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "1–6 of 1,432"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#0/button#3": {
+      "id": "inbox/panel#0/panel#0/button#3",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Newer.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "‹"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#0/button#4": {
+      "id": "inbox/panel#0/panel#0/button#4",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Older.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "›"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#1/button#0": {
+      "id": "inbox/panel#0/panel#1/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "border-b-2 border-blue-600 px-5 py-3 text-sm font-semibold text-blue-700",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Primary category tab (current).",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📥 Primary"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#1/button#1": {
+      "id": "inbox/panel#0/panel#1/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "px-5 py-3 text-sm text-slate-500 hover:bg-slate-50",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Social category tab.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "👥 Social"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#1/button#2": {
+      "id": "inbox/panel#0/panel#1/button#2",
+      "kind": "button",
+      "element": "button",
+      "className": "px-5 py-3 text-sm text-slate-500 hover:bg-slate-50",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Promotions category tab.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🏷️ Promotions"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/button#0": {
+      "id": "inbox/panel#0/panel#2/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-300 hover:text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Select this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/button#1": {
+      "id": "inbox/panel#0/panel#2/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "text-base text-amber-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Star this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⭐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "w-44 shrink-0 truncate text-sm font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Sender name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[0].sender"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#0/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 truncate text-sm font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Subject.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[0].subject"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/panel#0/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#0/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "min-w-0 truncate text-sm text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Message preview.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "—"
+        },
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[0].snippet"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/badge#0": {
+      "id": "inbox/panel#0/panel#2/panel#0/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Label chip.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Work"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/badge#1": {
+      "id": "inbox/panel#0/panel#2/panel#0/badge#1",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Has an attachment.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📎"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#0/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 text-xs font-semibold text-slate-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Time received.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[0].time"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/button#0": {
+      "id": "inbox/panel#0/panel#2/panel#1/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-300 hover:text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Select this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/button#1": {
+      "id": "inbox/panel#0/panel#2/panel#1/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "text-base text-slate-300 hover:text-amber-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Star this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☆"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#1/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "w-44 shrink-0 truncate text-sm font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Sender name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[1].sender"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#1/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 truncate text-sm font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Subject.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[1].subject"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/panel#0/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#1/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "min-w-0 truncate text-sm text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Message preview.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "—"
+        },
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[1].snippet"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/badge#0": {
+      "id": "inbox/panel#0/panel#2/panel#1/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 rounded bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Label chip.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Updates"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#1/badge#1": {
+      "id": "inbox/panel#0/panel#2/panel#1/badge#1",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Has an attachment.",
+      "content": []
+    },
+    "inbox/panel#0/panel#2/panel#1/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#1/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 text-xs font-semibold text-slate-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Time received.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[1].time"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/button#0": {
+      "id": "inbox/panel#0/panel#2/panel#2/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-300 hover:text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Select this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/button#1": {
+      "id": "inbox/panel#0/panel#2/panel#2/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "text-base text-amber-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Star this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⭐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#2/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "w-44 shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Sender name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[2].sender"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#2/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Subject.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[2].subject"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/panel#0/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#2/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "min-w-0 truncate text-sm text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Message preview.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "—"
+        },
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[2].snippet"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/badge#0": {
+      "id": "inbox/panel#0/panel#2/panel#2/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Label chip.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Work"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/badge#1": {
+      "id": "inbox/panel#0/panel#2/panel#2/badge#1",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Has an attachment.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📎"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#2/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#2/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Time received.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[2].time"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/button#0": {
+      "id": "inbox/panel#0/panel#2/panel#3/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-300 hover:text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Select this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/button#1": {
+      "id": "inbox/panel#0/panel#2/panel#3/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "text-base text-slate-300 hover:text-amber-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Star this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☆"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#3/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "w-44 shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Sender name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[3].sender"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#3/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Subject.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[3].subject"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/panel#0/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#3/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "min-w-0 truncate text-sm text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Message preview.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "—"
+        },
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[3].snippet"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/badge#0": {
+      "id": "inbox/panel#0/panel#2/panel#3/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 rounded bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Label chip.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Promotions"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#3/badge#1": {
+      "id": "inbox/panel#0/panel#2/panel#3/badge#1",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Has an attachment.",
+      "content": []
+    },
+    "inbox/panel#0/panel#2/panel#3/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#3/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Time received.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[3].time"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/button#0": {
+      "id": "inbox/panel#0/panel#2/panel#4/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-300 hover:text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Select this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/button#1": {
+      "id": "inbox/panel#0/panel#2/panel#4/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "text-base text-slate-300 hover:text-amber-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Star this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☆"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#4/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "w-44 shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Sender name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[4].sender"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#4/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Subject.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[4].subject"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/panel#0/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#4/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "min-w-0 truncate text-sm text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Message preview.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "—"
+        },
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[4].snippet"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/badge#0": {
+      "id": "inbox/panel#0/panel#2/panel#4/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 rounded bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Label chip.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Personal"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#4/badge#1": {
+      "id": "inbox/panel#0/panel#2/panel#4/badge#1",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Has an attachment.",
+      "content": []
+    },
+    "inbox/panel#0/panel#2/panel#4/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#4/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Time received.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[4].time"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/button#0": {
+      "id": "inbox/panel#0/panel#2/panel#5/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-300 hover:text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Select this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☐"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/button#1": {
+      "id": "inbox/panel#0/panel#2/panel#5/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "text-base text-slate-300 hover:text-amber-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Star this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☆"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#5/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "w-44 shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Sender name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[5].sender"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/panel#0/text#0": {
+      "id": "inbox/panel#0/panel#2/panel#5/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 truncate text-sm font-normal text-slate-600",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Subject.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[5].subject"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/panel#0/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#5/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "min-w-0 truncate text-sm text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Message preview.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "—"
+        },
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[5].snippet"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/badge#0": {
+      "id": "inbox/panel#0/panel#2/panel#5/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 rounded bg-violet-100 px-2 py-0.5 text-xs font-medium text-violet-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Label chip.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Travel"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/badge#1": {
+      "id": "inbox/panel#0/panel#2/panel#5/badge#1",
+      "kind": "badge",
+      "element": "span",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Has an attachment.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📎"
+        }
+      ]
+    },
+    "inbox/panel#0/panel#2/panel#5/text#1": {
+      "id": "inbox/panel#0/panel#2/panel#5/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "shrink-0 text-xs text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Time received.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "EMAILS[5].time"
+        }
+      ]
+    },
+    "read/panel#0/panel#0/button#0": {
+      "id": "read/panel#0/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-3 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Back to the inbox.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "← Back"
+        }
+      ]
+    },
+    "read/panel#0/panel#0/button#1": {
+      "id": "read/panel#0/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Archive.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🗄"
+        }
+      ]
+    },
+    "read/panel#0/panel#0/button#2": {
+      "id": "read/panel#0/panel#0/button#2",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Report spam.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🚫"
+        }
+      ]
+    },
+    "read/panel#0/panel#0/button#3": {
+      "id": "read/panel#0/panel#0/button#3",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Delete.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🗑️"
+        }
+      ]
+    },
+    "read/panel#0/panel#0/button#4": {
+      "id": "read/panel#0/panel#0/button#4",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1.5 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Snooze.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⏰"
+        }
+      ]
+    },
+    "read/panel#0/panel#0/text#0": {
+      "id": "read/panel#0/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "ml-auto text-xs",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Position in thread.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "1 of 1,432"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#0/text#0": {
+      "id": "read/panel#0/panel#1/panel#0/text#0",
+      "kind": "text",
+      "element": "h1",
+      "className": "text-2xl font-normal text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Subject.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.subject"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#0/badge~0": {
+      "id": "read/panel#0/panel#1/panel#0/badge~0",
+      "kind": "badge",
+      "element": "span",
+      "className": "",
+      "dynamicClassName": true,
+      "required": false,
+      "description": "Label chip.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.label.text"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#1/image#0": {
+      "id": "read/panel#0/panel#1/panel#1/image#0",
+      "kind": "image",
+      "element": "img",
+      "className": "h-10 w-10 rounded-full object-cover",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Sender avatar.",
+      "content": []
+    },
+    "read/panel#0/panel#1/panel#1/panel#0/text#0": {
+      "id": "read/panel#0/panel#1/panel#1/panel#0/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "text-sm font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Sender name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.sender"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#1/panel#0/text#1": {
+      "id": "read/panel#0/panel#1/panel#1/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "text-xs text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Sender address.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.email"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#1/text#0": {
+      "id": "read/panel#0/panel#1/panel#1/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "ml-auto text-xs text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Received time.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.time"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#1/button#0": {
+      "id": "read/panel#0/panel#1/panel#1/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-lg text-slate-300 hover:text-amber-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Star this message.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "starred ? '⭐' : '☆'"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#1/button#1": {
+      "id": "read/panel#0/panel#1/panel#1/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-1 text-slate-500 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Reply.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "↩"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#2/text#0": {
+      "id": "read/panel#0/panel#1/panel#2/text#0",
+      "kind": "text",
+      "element": "p",
+      "className": "",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Body paragraph.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.body[0]"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#2/text#1": {
+      "id": "read/panel#0/panel#1/panel#2/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Body paragraph.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.body[1]"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#2/text#2": {
+      "id": "read/panel#0/panel#1/panel#2/text#2",
+      "kind": "text",
+      "element": "p",
+      "className": "",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Body paragraph.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.body[2]"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel#2/text#3": {
+      "id": "read/panel#0/panel#1/panel#2/text#3",
+      "kind": "text",
+      "element": "p",
+      "className": "",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Body paragraph.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "email.body[3] ?? ''"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel~1/input#0": {
+      "id": "read/panel#0/panel#1/panel~1/input#0",
+      "kind": "input",
+      "element": "input",
+      "className": "w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Reply text.",
+      "content": []
+    },
+    "read/panel#0/panel#1/panel~1/panel#0/button#0": {
+      "id": "read/panel#0/panel#1/panel~1/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full bg-blue-600 px-5 py-2 text-sm font-medium text-white hover:bg-blue-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Send the reply.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Send"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel~1/panel#0/button#1": {
+      "id": "read/panel#0/panel#1/panel~1/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-3 py-2 text-sm text-slate-500 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Discard the reply.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Discard"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel~2/button#0": {
+      "id": "read/panel#0/panel#1/panel~2/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Reply to this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "↩ Reply"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel~2/button#1": {
+      "id": "read/panel#0/panel#1/panel~2/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Reply to all.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "↩ Reply all"
+        }
+      ]
+    },
+    "read/panel#0/panel#1/panel~2/button#2": {
+      "id": "read/panel#0/panel#1/panel~2/button#2",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Forward this message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "➡ Forward"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#0": {
+      "id": "sidebar/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "mb-3 flex w-fit items-center gap-3 rounded-2xl bg-blue-100 px-5 py-3.5 font-medium text-blue-900 shadow-sm hover:bg-blue-200 hover:shadow",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Compose a new message.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "✏️ Compose"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#1": {
+      "id": "sidebar/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full bg-blue-50 px-4 py-2 font-semibold text-blue-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Inbox — your primary mail (12 unread).",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📥 Inbox"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#2": {
+      "id": "sidebar/panel#0/button#2",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Starred messages.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⭐ Starred"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#3": {
+      "id": "sidebar/panel#0/button#3",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Snoozed messages.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⏰ Snoozed"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#4": {
+      "id": "sidebar/panel#0/button#4",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Sent mail.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📤 Sent"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#5": {
+      "id": "sidebar/panel#0/button#5",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Drafts (3).",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📝 Drafts"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#6": {
+      "id": "sidebar/panel#0/button#6",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Important mail.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🏷️ Important"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#7": {
+      "id": "sidebar/panel#0/button#7",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Scheduled mail.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🕓 Scheduled"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#8": {
+      "id": "sidebar/panel#0/button#8",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "All mail across folders.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "📨 All Mail"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#9": {
+      "id": "sidebar/panel#0/button#9",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Spam folder.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🚫 Spam"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#10": {
+      "id": "sidebar/panel#0/button#10",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-4 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Trash folder.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🗑️ Trash"
+        }
+      ]
+    },
+    "sidebar/panel#0/text#0": {
+      "id": "sidebar/panel#0/text#0",
+      "kind": "text",
+      "element": "label",
+      "className": "mt-3 px-4 text-xs font-semibold uppercase tracking-wide text-slate-400",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Section label for user labels.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Labels"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#11": {
+      "id": "sidebar/panel#0/button#11",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Work label.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🔵 Work"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#12": {
+      "id": "sidebar/panel#0/button#12",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Personal label.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🔴 Personal"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#13": {
+      "id": "sidebar/panel#0/button#13",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Travel label.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🟣 Travel"
+        }
+      ]
+    },
+    "sidebar/panel#0/button#14": {
+      "id": "sidebar/panel#0/button#14",
+      "kind": "button",
+      "element": "button",
+      "className": "flex items-center gap-3 rounded-r-full px-4 py-2 text-slate-700 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Receipts label.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🟢 Receipts"
+        }
+      ]
+    },
+    "topbar/panel#0/button#0": {
+      "id": "topbar/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-2 text-lg text-slate-600 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Toggle the navigation rail.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "☰"
+        }
+      ]
+    },
+    "topbar/panel#0/text#0": {
+      "id": "topbar/panel#0/text#0",
+      "kind": "text",
+      "element": "h1",
+      "className": "text-xl font-semibold text-slate-700",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Brand wordmark.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "✉️ Gmail"
+        }
+      ]
+    },
+    "topbar/panel#0/panel#0/button#0": {
+      "id": "topbar/panel#0/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-500 hover:text-slate-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Run the search.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "🔍"
+        }
+      ]
+    },
+    "topbar/panel#0/panel#0/input#0": {
+      "id": "topbar/panel#0/panel#0/input#0",
+      "kind": "input",
+      "element": "input",
+      "className": "w-full bg-transparent text-sm outline-none placeholder:text-slate-500",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Search mail (must stay editable).",
+      "content": []
+    },
+    "topbar/panel#0/panel#0/button#1": {
+      "id": "topbar/panel#0/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "text-slate-500 hover:text-slate-700",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Open search filters.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⚙"
+        }
+      ]
+    },
+    "topbar/panel#0/button#1": {
+      "id": "topbar/panel#0/button#1",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-2 text-slate-600 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Open help.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "❓"
+        }
+      ]
+    },
+    "topbar/panel#0/button#2": {
+      "id": "topbar/panel#0/button#2",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-2 text-slate-600 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Open settings.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "⚙️"
+        }
+      ]
+    },
+    "topbar/panel#0/button#3": {
+      "id": "topbar/panel#0/button#3",
+      "kind": "button",
+      "element": "button",
+      "className": "rounded-full px-2 py-2 text-slate-600 hover:bg-slate-100",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Open the Google apps grid.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "▦"
+        }
+      ]
+    },
+    "topbar/panel#0/image#0": {
+      "id": "topbar/panel#0/image#0",
+      "kind": "image",
+      "element": "img",
+      "className": "h-8 w-8 rounded-full object-cover",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "The signed-in user's avatar.",
+      "content": []
+    }
+  },
+  "palette": {
+    "seededFromAuthor": [
+      "bg-amber-100",
+      "bg-blue-100",
+      "bg-blue-50",
+      "bg-blue-600",
+      "bg-emerald-100",
+      "bg-rose-100",
+      "bg-slate-100",
+      "bg-slate-50",
+      "bg-slate-50/40",
+      "bg-transparent",
+      "bg-violet-100",
+      "bg-white",
+      "border",
+      "border-b",
+      "border-b-2",
+      "border-blue-600",
+      "border-r",
+      "border-slate-200",
+      "border-slate-300",
+      "cursor-pointer",
+      "divide-slate-100",
+      "divide-y",
+      "flex",
+      "flex-1",
+      "flex-col",
+      "focus-within:bg-white",
+      "focus-within:shadow",
+      "focus:border-blue-400",
+      "font-medium",
+      "font-normal",
+      "font-semibold",
+      "gap-1",
+      "gap-2",
+      "gap-3",
+      "gap-4",
+      "h-10",
+      "h-8",
+      "h-screen",
+      "hover:bg-blue-200",
+      "hover:bg-blue-700",
+      "hover:bg-slate-100",
+      "hover:bg-slate-50",
+      "hover:shadow",
+      "hover:shadow-sm",
+      "hover:text-amber-400",
+      "hover:text-slate-500",
+      "hover:text-slate-700",
+      "items-center",
+      "leading-relaxed",
+      "max-w-2xl",
+      "mb-3",
+      "min-h-0",
+      "min-w-0",
+      "ml-4",
+      "ml-auto",
+      "mt-3",
+      "object-cover",
+      "outline-none",
+      "overflow-y-auto",
+      "p-3",
+      "placeholder:text-slate-500",
+      "pt-2",
+      "px-2",
+      "px-3",
+      "px-4",
+      "px-5",
+      "px-8",
+      "py-0.5",
+      "py-1",
+      "py-1.5",
+      "py-2",
+      "py-2.5",
+      "py-3",
+      "py-3.5",
+      "py-6",
+      "rounded",
+      "rounded-2xl",
+      "rounded-full",
+      "rounded-lg",
+      "rounded-r-full",
+      "rounded-xl",
+      "shadow-sm",
+      "shrink-0",
+      "text-2xl",
+      "text-amber-400",
+      "text-amber-700",
+      "text-base",
+      "text-blue-700",
+      "text-blue-900",
+      "text-emerald-700",
+      "text-lg",
+      "text-rose-700",
+      "text-slate-300",
+      "text-slate-400",
+      "text-slate-500",
+      "text-slate-600",
+      "text-slate-700",
+      "text-slate-900",
+      "text-sm",
+      "text-violet-700",
+      "text-white",
+      "text-xl",
+      "text-xs",
+      "tracking-wide",
+      "truncate",
+      "uppercase",
+      "w-10",
+      "w-44",
+      "w-60",
+      "w-8",
+      "w-fit",
+      "w-full",
+      "whitespace-pre-line"
+    ],
+    "families": [
+      "text-size",
+      "font-weight",
+      "text-color",
+      "bg-color",
+      "padding",
+      "margin",
+      "gap",
+      "rounded",
+      "border",
+      "border-color",
+      "display",
+      "flex",
+      "grid",
+      "align",
+      "justify",
+      "width",
+      "height"
+    ]
+  }
+}

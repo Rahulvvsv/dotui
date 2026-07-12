@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "panels": {
+    "profile/panel#0/panel#0": {
+      "id": "profile/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col gap-1",
+      "dynamicClassName": false,
+      "children": [
+        "profile/panel#0/panel#0/text#0",
+        "profile/panel#0/panel#0/text#1",
+        "profile/panel#0/panel#0/badge#0"
+      ]
+    },
+    "profile/panel#0": {
+      "id": "profile/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex items-center gap-4 rounded-lg border border-slate-200 p-4",
+      "dynamicClassName": false,
+      "description": "The user's profile header — identity and primary action.",
+      "children": [
+        "profile/panel#0/image#0",
+        "profile/panel#0/panel#0",
+        "profile/panel#0/button#0"
+      ]
+    },
+    "settings/panel#0/panel#0": {
+      "id": "settings/panel#0/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col gap-1",
+      "dynamicClassName": false,
+      "children": [
+        "settings/panel#0/panel#0/text#0",
+        "settings/panel#0/panel#0/input#0"
+      ]
+    },
+    "settings/panel#0/panel#1": {
+      "id": "settings/panel#0/panel#1",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col gap-1",
+      "dynamicClassName": false,
+      "children": [
+        "settings/panel#0/panel#1/text#0",
+        "settings/panel#0/panel#1/input#0"
+      ]
+    },
+    "settings/panel#0": {
+      "id": "settings/panel#0",
+      "kind": "panel",
+      "element": "div",
+      "className": "flex flex-col gap-4 rounded-lg border border-slate-200 p-4",
+      "dynamicClassName": false,
+      "description": "Account settings form — editable fields and a save action.",
+      "children": [
+        "settings/panel#0/text#0",
+        "settings/panel#0/panel#0",
+        "settings/panel#0/panel#1",
+        "settings/panel#0/button#0"
+      ]
+    }
+  },
+  "dots": {
+    "profile/panel#0/image#0": {
+      "id": "profile/panel#0/image#0",
+      "kind": "image",
+      "element": "img",
+      "className": "h-16 w-16 rounded-full object-cover",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "The user's avatar.",
+      "content": []
+    },
+    "profile/panel#0/panel#0/text#0": {
+      "id": "profile/panel#0/panel#0/text#0",
+      "kind": "text",
+      "element": "h2",
+      "className": "text-lg font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "The user's name.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "name"
+        }
+      ]
+    },
+    "profile/panel#0/panel#0/text#1": {
+      "id": "profile/panel#0/panel#0/text#1",
+      "kind": "text",
+      "element": "p",
+      "className": "text-sm text-slate-500",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "The user's job title.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "role"
+        }
+      ]
+    },
+    "profile/panel#0/panel#0/badge#0": {
+      "id": "profile/panel#0/panel#0/badge#0",
+      "kind": "badge",
+      "element": "span",
+      "className": "mt-1 w-fit rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-600",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Online presence status.",
+      "content": [
+        {
+          "kind": "dynamic",
+          "expr": "online ? 'Online' : 'Offline'"
+        }
+      ]
+    },
+    "profile/panel#0/button#0": {
+      "id": "profile/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "ml-auto rounded-md bg-slate-900 px-3 py-1.5 text-sm text-white",
+      "dynamicClassName": false,
+      "required": false,
+      "description": "Opens profile editing.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Edit profile"
+        }
+      ]
+    },
+    "settings/panel#0/text#0": {
+      "id": "settings/panel#0/text#0",
+      "kind": "text",
+      "element": "h2",
+      "className": "text-lg font-semibold text-slate-900",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Section heading.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Account settings"
+        }
+      ]
+    },
+    "settings/panel#0/panel#0/text#0": {
+      "id": "settings/panel#0/panel#0/text#0",
+      "kind": "text",
+      "element": "label",
+      "className": "text-sm font-medium text-slate-700",
+      "dynamicClassName": false,
+      "required": false,
+      "content": [
+        {
+          "kind": "static",
+          "value": "Email"
+        }
+      ]
+    },
+    "settings/panel#0/panel#0/input#0": {
+      "id": "settings/panel#0/panel#0/input#0",
+      "kind": "input",
+      "element": "input",
+      "className": "rounded border border-slate-300 px-3 py-2 text-sm",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "The account's email address (must stay editable).",
+      "content": []
+    },
+    "settings/panel#0/panel#1/text#0": {
+      "id": "settings/panel#0/panel#1/text#0",
+      "kind": "text",
+      "element": "label",
+      "className": "text-sm font-medium text-slate-700",
+      "dynamicClassName": false,
+      "required": false,
+      "content": [
+        {
+          "kind": "static",
+          "value": "Display name"
+        }
+      ]
+    },
+    "settings/panel#0/panel#1/input#0": {
+      "id": "settings/panel#0/panel#1/input#0",
+      "kind": "input",
+      "element": "input",
+      "className": "rounded border border-slate-300 px-3 py-2 text-sm",
+      "dynamicClassName": false,
+      "required": false,
+      "content": []
+    },
+    "settings/panel#0/button#0": {
+      "id": "settings/panel#0/button#0",
+      "kind": "button",
+      "element": "button",
+      "className": "w-fit rounded-md bg-blue-600 px-3 py-1.5 text-sm text-white",
+      "dynamicClassName": false,
+      "required": true,
+      "description": "Saves the settings — the primary action.",
+      "content": [
+        {
+          "kind": "static",
+          "value": "Save changes"
+        }
+      ]
+    }
+  },
+  "palette": {
+    "seededFromAuthor": [
+      "bg-blue-600",
+      "bg-slate-100",
+      "bg-slate-900",
+      "border",
+      "border-slate-200",
+      "border-slate-300",
+      "flex",
+      "flex-col",
+      "font-medium",
+      "font-semibold",
+      "gap-1",
+      "gap-4",
+      "h-16",
+      "items-center",
+      "ml-auto",
+      "mt-1",
+      "object-cover",
+      "p-4",
+      "px-2",
+      "px-3",
+      "py-0.5",
+      "py-1.5",
+      "py-2",
+      "rounded",
+      "rounded-full",
+      "rounded-lg",
+      "rounded-md",
+      "text-lg",
+      "text-slate-500",
+      "text-slate-600",
+      "text-slate-700",
+      "text-slate-900",
+      "text-sm",
+      "text-white",
+      "text-xs",
+      "w-16",
+      "w-fit"
+    ],
+    "families": [
+      "text-size",
+      "font-weight",
+      "text-color",
+      "bg-color",
+      "padding",
+      "margin",
+      "gap",
+      "rounded",
+      "border",
+      "border-color",
+      "display",
+      "flex",
+      "grid",
+      "align",
+      "justify",
+      "width",
+      "height"
+    ]
+  }
+}

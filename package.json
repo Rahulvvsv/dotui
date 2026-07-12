@@ -1,0 +1,19 @@
+{
+  "name": "dotui-v2",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "corepack pnpm -r --filter \"./packages/*\" run build",
+    "test": "corepack pnpm -r --filter \"./packages/*\" run test",
+    "typecheck": "corepack pnpm -r run typecheck",
+    "lint": "biome check .",
+    "lint:fix": "biome check --fix .",
+    "dotui": "node packages/compiler/dist/bin.cjs",
+    "schema:demo": "node packages/compiler/dist/bin.cjs build \"apps/demo/app/**/*.panel.tsx\" --out apps/demo/.dotui/schema.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "typescript": "^5.7.2"
+  }
+}
