@@ -23,7 +23,7 @@ export function droppedSummary(dropped: Record<string, string[]> | undefined): s
 
 /**
  * Wraps an app in the prompt layer: holds the live overlay, renders a
- * DotOverlayProvider so every dot picks it up, and shows the floating ✨ control.
+ * DotOverlayProvider so every dot picks it up, and shows the floating  control.
  * End-users prompt one panel (via `<Promptable>`) or all panels (global box),
  * undo or reset what they did, and manage saved visuals. Failures and guardrail
  * drops surface as toasts. Everything here is apply-only: persistence flows

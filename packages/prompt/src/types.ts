@@ -63,7 +63,7 @@ export type PromptableProps = {
   children: ReactNode;
   className?: string;
   /**
-   * Show the inline ✨ control (default true). Set false to register the panel for the
+   * Show the inline  control (default true). Set false to register the panel for the
    * global prompt without an inline button — e.g. a full-bleed background/root panel that
    * should follow a global "dark mode" prompt but doesn't need its own corner affordance.
    */

@@ -26,7 +26,7 @@ export function Shell({ initialOverlay }: { initialOverlay: Overlay }) {
         <header className="flex flex-col gap-1">
           <h1 className="text-xl font-bold text-slate-900">dotUI v2 — prompt the UI</h1>
           <p className="text-sm text-slate-500">
-            Hit <span className="font-semibold text-violet-600">✨ Edit UI</span> (bottom-left),
+            Hit <span className="font-semibold text-violet-600"> Edit UI</span> (bottom-left),
             then prompt a single panel or all of them — e.g. “make it bigger”, “dark mode”, “hide
             the status”. Changes apply live; nothing is saved.
           </p>

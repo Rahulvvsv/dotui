@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { SavedVisual } from './types';
 
 /**
- * The floating edit-mode control (bottom-left). Collapsed it's a "✨ Edit UI"
+ * The floating edit-mode control (bottom-left). Collapsed it's a " Edit UI"
  * pill; open it shows the global prompt box (with run progress + Stop), undo /
  * reset-all, and the saved-visuals switcher (save, switch, delete with an
  * arm-then-confirm ✕). Escape closes it and focus returns to the pill.
@@ -83,7 +83,7 @@ export function Control({
         aria-label="Open the dotUI edit panel"
         className="fixed bottom-4 left-4 z-50 rounded-full bg-violet-600 px-4 py-2 text-xs font-semibold text-white shadow-lg hover:bg-violet-500"
       >
-        ✨ Edit UI
+         Edit UI
       </button>
     );
   }
@@ -96,7 +96,7 @@ export function Control({
       }}
     >
       <div className="mb-2 flex items-center gap-2 text-xs font-semibold text-slate-700">
-        <span>✨ Edit UI — global</span>
+        <span> Edit UI — global</span>
         {busy && !progress && <span className="text-violet-600">working…</span>}
         <button
           type="button"
@@ -159,7 +159,7 @@ export function Control({
       </form>
       <div className="mt-2 flex items-center justify-between">
         <p className="text-[10px] text-slate-400">
-          Applies to every panel. Use a panel's own ✨ to restyle just that one.
+          Applies to every panel. Use a panel's own  to restyle just that one.
         </p>
         <button
           type="button"

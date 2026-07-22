@@ -37,7 +37,7 @@ describe('mergeOverlay', () => {
 describe('DotuiPromptProvider', () => {
   it('applies a global prompt to every registered panel', async () => {
     const { container } = setup();
-    fireEvent.click(screen.getByText('✨ Edit UI'));
+    fireEvent.click(screen.getByText(' Edit UI'));
     fireEvent.change(screen.getByPlaceholderText(/make everything/i), {
       target: { value: 'redden' },
     });
@@ -70,7 +70,7 @@ describe('DotuiPromptProvider', () => {
       </DotuiPromptProvider>,
     );
 
-    fireEvent.click(screen.getByText('✨ Edit UI'));
+    fireEvent.click(screen.getByText(' Edit UI'));
     fireEvent.change(screen.getByPlaceholderText(/make everything/i), {
       target: { value: 'redden' },
     });
@@ -101,7 +101,7 @@ describe('DotuiPromptProvider', () => {
       </DotuiPromptProvider>,
     );
 
-    fireEvent.click(screen.getByText('✨ Edit UI'));
+    fireEvent.click(screen.getByText(' Edit UI'));
     fireEvent.change(screen.getByPlaceholderText(/make everything/i), {
       target: { value: 'redden' },
     });
@@ -113,9 +113,9 @@ describe('DotuiPromptProvider', () => {
     );
   });
 
-  it('applies a single-panel prompt from that panel’s ✨', async () => {
+  it('applies a single-panel prompt from that panel’s ', async () => {
     const { container } = setup();
-    fireEvent.click(screen.getByText('✨ Edit UI')); // enter edit mode
+    fireEvent.click(screen.getByText(' Edit UI')); // enter edit mode
     fireEvent.click(screen.getByTitle('Prompt this panel'));
     fireEvent.change(screen.getByPlaceholderText(/restyle this panel/i), {
       target: { value: 'redden' },

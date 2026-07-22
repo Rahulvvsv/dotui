@@ -20,7 +20,7 @@ function renderOne(generate: (args: { prompt: string; panelId: string }) => Prom
 }
 
 function promptGlobally(value: string) {
-  fireEvent.click(screen.getByText('✨ Edit UI'));
+  fireEvent.click(screen.getByText(' Edit UI'));
   fireEvent.change(screen.getByPlaceholderText(/make everything/i), { target: { value } });
   fireEvent.click(screen.getByText('Apply'));
 }
@@ -65,7 +65,7 @@ describe('undo and reset', () => {
       </DotuiPromptProvider>,
     );
 
-    fireEvent.click(screen.getByText('✨ Edit UI'));
+    fireEvent.click(screen.getByText(' Edit UI'));
     const undoButton = () => screen.getByRole<HTMLButtonElement>('button', { name: /undo/i });
     expect(undoButton().disabled).toBe(true);
 
@@ -151,7 +151,7 @@ describe('saved-visual delete', () => {
         </Promptable>
       </DotuiPromptProvider>,
     );
-    fireEvent.click(screen.getByText('✨ Edit UI'));
+    fireEvent.click(screen.getByText(' Edit UI'));
     const del = screen.getByRole('button', { name: 'Delete visual Calm' });
     fireEvent.click(del); // arm
     fireEvent.click(screen.getByRole('button', { name: 'Confirm delete Calm' }));
@@ -165,7 +165,7 @@ describe('keyboard access', () => {
     const gen = ({ panelId }: { prompt: string; panelId: string }): Promise<PromptResult> =>
       Promise.resolve({ overlay: { [panelId]: {} } });
     renderOne(gen);
-    fireEvent.click(screen.getByText('✨ Edit UI'));
+    fireEvent.click(screen.getByText(' Edit UI'));
     fireEvent.click(screen.getByRole('button', { name: `Restyle ${PANEL} by prompt` }));
     const input = screen.getByPlaceholderText(/restyle this panel/i);
     fireEvent.keyDown(input, { key: 'Escape' });

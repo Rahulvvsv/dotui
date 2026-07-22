@@ -6,9 +6,9 @@ import type { PromptableProps } from './types';
 
 /**
  * Wraps one panel so it becomes individually promptable. Renders the panel
- * untouched; in edit mode it overlays a small ✨ button in the corner that opens
+ * untouched; in edit mode it overlays a small  button in the corner that opens
  * an inline prompt box (with a ⟲ reset for just this panel). Escape closes the
- * box and focus returns to the ✨ opener. Registers its panelId so the global
+ * box and focus returns to the  opener. Registers its panelId so the global
  * box can target it too.
  */
 export function Promptable({ panelId, children, className, showControl = true }: PromptableProps) {
@@ -23,7 +23,7 @@ export function Promptable({ panelId, children, className, showControl = true }:
     return () => unregister(panelId);
   }, [panelId, register, unregister]);
 
-  // Return focus to the ✨ opener when the popover closes (Escape or submit).
+  // Return focus to the  opener when the popover closes (Escape or submit).
   useEffect(() => {
     if (open) wasOpen.current = true;
     else if (wasOpen.current) openerRef.current?.focus();
@@ -35,7 +35,7 @@ export function Promptable({ panelId, children, className, showControl = true }:
     <div className={`relative ${active ? 'dotui-panel-active' : ''} ${className ?? ''}`}>
       {active && (
         <span className="dotui-active-badge" aria-hidden="true">
-          ✨ styling…
+           styling…
         </span>
       )}
       {children}
@@ -92,7 +92,7 @@ export function Promptable({ panelId, children, className, showControl = true }:
               title="Prompt this panel"
               className="rounded-full bg-violet-600/90 px-1.5 py-0.5 text-[11px] text-white shadow hover:bg-violet-500"
             >
-              ✨
+              
             </button>
           )}
         </div>

@@ -2,7 +2,7 @@ import { type NextRequest, NextResponse } from 'next/server';
 
 /**
  * Every visitor gets a stable anonymous id (`dotui_uid`) on first contact; the
- * overlay/visual stores key their rows by it, so one person's ✨ edits are
+ * overlay/visual stores key their rows by it, so one person's  edits are
  * theirs alone instead of becoming everyone's UI.
  */
 export function middleware(request: NextRequest) {
